@@ -24,7 +24,7 @@ export default function Testimonial(){
                       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><path fill="#FDCC0D" stroke="#FDCC0D" strokeLinejoin="round" strokeWidth="4" d="m23.999 5l-6.113 12.478L4 19.49l10.059 9.834L11.654 43L24 36.42L36.345 43L33.96 29.325L44 19.491l-13.809-2.013L24 5Z"></path></svg>
                       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><path fill="#FDCC0D" stroke="#FDCC0D" strokeLinejoin="round" strokeWidth="4" d="m23.999 5l-6.113 12.478L4 19.49l10.059 9.834L11.654 43L24 36.42L36.345 43L33.96 29.325L44 19.491l-13.809-2.013L24 5Z"></path></svg>
                     </div>
-                    <p className="mt-2 text-black md:text-sm"> I am glad that  Contacted this company "Real Estate"  on the      recommendation of friends who have repeatedly applied here. I will  not hide it. I really liked working with you, all that it was...
+                    <p className="mt-2 text-black md:text-sm"> I am glad that  Contacted this company "Real Estate" on the recommendation of friends who have repeatedly applied here. I will  not hide it. I really liked working with you, all that it was...
                     </p>
                     <Link href={'/'} className="text-[#FDCC0D]">Read More</Link>
                   </div>
