@@ -4,7 +4,7 @@ export default function About(){
         <section className="relative py-16 z-20" id="about">
             <div className="flex flex-wrap gap-y-5 justify-between items-center mx-16 md:mx-5">
                 <div className="border-8 border-button-color">
-                    <img src={"/img2.jpg"} alt="" className="max-w-lg"/>
+                    <img src={"/img2.jpg"} className="max-w-lg"/>
                 </div>
 
                 <div className="">
