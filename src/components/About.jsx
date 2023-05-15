@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function About(){
     return(
         <section className="relative py-16 z-20" id="about">
