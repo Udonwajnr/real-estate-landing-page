@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 export default function Testimonial(){
     return (
@@ -11,7 +12,7 @@ export default function Testimonial(){
               {/* first card */}
                 <div className="card max-w-sm shadow-4xl p-8 md:p-3 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
-                    <img src="./img10.png" alt="profile-Image" className="w-28 rounded-full" />
+                    <Image src="/img10.png" alt="picture" width={300} height={300} className="w-28 rounded-full" />
                   </div>
                   <div>
                     <h1 className="text-center mt-3 text-xl font-bold">Amelia Kerr</h1>
@@ -34,7 +35,7 @@ export default function Testimonial(){
               {/* second card */}
                 <div className="card max-w-sm shadow-4xl p-8 md:p-3 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
-                    <img src="./img9.png" alt="profile-Image" className="w-28 rounded-full" />
+                    <Image src="/img9.png" alt="picture" width={300} height={300} className="w-28 rounded-full" />
                   </div>
                   <div>
                     <h1 className="text-center mt-3 text-xl font-bold">Henry Johns</h1>
@@ -58,7 +59,7 @@ export default function Testimonial(){
               {/* first card */}
                 <div className="card max-w-sm shadow-4xl p-8 md:p-3 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
-                    <img src="./img11.png" alt="profile-Image" className="w-28 rounded-full" />
+                    <Image src="/img11.png" alt="picture" width={300} height={300} className="w-28 rounded-full" />
                   </div>
                   <div>
                     <h1 className="text-center mt-3 text-xl font-bold">James Smith</h1>

@@ -5,6 +5,7 @@ import { useCallback,useState,useEffect } from "react";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Image from "next/image";
 
 export default function Property(){
     const settings = {
@@ -57,7 +58,7 @@ export default function Property(){
                                             {/* first house */}
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
                                                 <div>
-                                                    <img src="/img3.jpg" alt="" className="max-w-sm" />
+                                                    <Image src="/img3.jpg" className="max-w-sm" alt="picture" width={300} height={300} />
                                                 </div>
                                                 <div className="px-4 lg:px-1 mt-3 text-black">
                                                     <h2 className="text-xl font-bold ">Luxury House</h2>
@@ -104,8 +105,8 @@ export default function Property(){
                                             </div>
                                             {/* first house */}
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
-                                                <div>
-                                                    <img src="/img7.jpg" alt="" className="max-w-sm" />
+                                                <div>                                                    
+                                                        <Image src="/img7.jpg" alt="picture" width={300} height={300} className="max-w-sm" />                                                    
                                                 </div>
                                                 <div className="px-4 lg:px-1 mt-3 text-black">
                                                     <h2 className="text-xl font-bold ">Luxury House</h2>
@@ -152,8 +153,8 @@ export default function Property(){
                                             </div>
                                             {/* first house */}
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
-                                                <div>
-                                                    <img src="/img5.jpg" alt="" className="max-w-sm" />
+                                                <div>                                                
+                                                        <Image  src="/img5.jpg" alt="picture" width={300} height={300} className="max-w-sm" />
                                                 </div>
                                                 <div className="px-4 lg:px-1 mt-3 text-black">
                                                     <h2 className="text-xl font-bold ">Luxury House</h2>
@@ -200,8 +201,8 @@ export default function Property(){
                                             </div>
                                             {/* first house */}
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
-                                                <div>
-                                                    <img src="/img6.jpg" alt="" className="max-w-sm" />
+                                                <div>                                        
+                                                        <Image src="/img6.jpg" alt="picture" width={300} height={300} className="max-w-sm" />                                                    
                                                 </div>
                                                 <div className="px-4 lg:px-1 mt-3 text-black">
                                                     <h2 className="text-xl font-bold ">Luxury House</h2>
@@ -246,9 +247,6 @@ export default function Property(){
                                                     <span className="font-bold text-lg lg:text-xs">$415,000</span>
                                                 </div>
                                             </div>
-
-                                            
-                                            
                                         </Slider>
                                 {/* </div> */}
                     </div>

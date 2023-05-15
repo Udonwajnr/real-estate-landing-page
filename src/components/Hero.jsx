@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Hero(){
 return(
     <>
@@ -68,7 +69,7 @@ return(
                   </div>
                  {/* hero image */}
             <div>
-                <img src={'/img14.jpg'} className="max-w-3xl h-auto" alt=""/>
+                 <Image src={'/img14.jpg'} className="max-w-3xl h-auto" alt="picture" width={300} height={300}/>
             </div>   
         </div>
     </div>

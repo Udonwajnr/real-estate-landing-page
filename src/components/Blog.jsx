@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Blog(){
     return(
         <section className="py-10" id="blog">
@@ -11,7 +12,7 @@ export default function Blog(){
             {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
-                        <img src="/img13.jpg" alt="" />
+                            <Image src="/img13.jpg" alt="picture" width={300} height={300}  />
                     </div>
                     <div className="px-8 md:p-3 py-3">
                         <span className="text-lg text-[#c7c7c7]">12 Feb,2023</span>
@@ -27,7 +28,9 @@ export default function Blog(){
              {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
-                        <img src="/img17.jpg" alt="" />
+                        <picture>
+                            <Image src="/img17.jpg"  alt="picture" width={300} height={300}/>
+                        </picture>
                     </div>
                     <div className="px-8 md:p-3 py-3">
                         <span className="text-lg text-[#c7c7c7]">14 Feb,2023</span>
@@ -42,7 +45,7 @@ export default function Blog(){
             {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
-                        <img src="/img15.jpg" alt="" />
+                            <Image src="/img15.jpg" alt="picture" width={300} height={300} />
                     </div>
                     <div className="px-8 md:p-3 py-3">
                         <span className="text-lg text-[#c7c7c7]">12 Feb,2023</span>
