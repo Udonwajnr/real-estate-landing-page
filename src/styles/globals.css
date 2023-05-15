@@ -13,15 +13,51 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --hero:#dbe5f1;
+    --logo:#6994c4l;
+    --text-color:#414548;
   }
 }
+img {
+width:100%;
+height: auto;
+}
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
+
+.embla {
+  overflow: hidden;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.embla__container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap:5px; */
+  /* background-color: green; */
+}
+
+.embla__slide {
+  overflow: hidden;
+    /* flex: 0 0 100%;
+    min-width: 0; */
+    /* padding-left: ; */
+    position: relative;
+ 
+}
+/* the slides */
+.slick-slider .slick-slide {
+  padding: 0 15px;
+}
+
+/* the parent */
+/* .slick-list {
+  margin: 0 -27px;
+} */
