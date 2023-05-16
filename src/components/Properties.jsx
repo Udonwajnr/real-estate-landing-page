@@ -1,7 +1,4 @@
 import Link from "next/link";
-import NextButton from "./CarouselNextButton";
-import PrevButton from "./CarouselPrevButton";
-import { useCallback,useState,useEffect } from "react";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -52,10 +49,8 @@ export default function Property(){
                 <h2 className="font-bold text-2xl">Latest Properties</h2>
             </div>
                     <div className="relative mt-5">
-                                {/* <div className=" mt-6 embla p-4"> */}
                                         <Slider {...settings}>
                                             
-                                            {/* first house */}
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
                                                 <div>
                                                     <Image src="/img3.jpg" className="max-w-sm" alt="picture" width={300} height={300} />
@@ -103,7 +98,7 @@ export default function Property(){
                                                     <span className="font-bold text-lg lg:text-xs">$415,000</span>
                                                 </div>
                                             </div>
-                                            {/* first house */}
+                                          
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
                                                 <div>                                                    
                                                         <Image src="/img7.jpg" alt="picture" width={300} height={300} className="max-w-sm" />                                                    
@@ -151,7 +146,7 @@ export default function Property(){
                                                     <span className="font-bold text-lg lg:text-xs">$415,000</span>
                                                 </div>
                                             </div>
-                                            {/* first house */}
+                                          
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
                                                 <div>                                                
                                                         <Image  src="/img5.jpg" alt="picture" width={300} height={300} className="max-w-sm" />
@@ -199,7 +194,7 @@ export default function Property(){
                                                     <span className="font-bold text-lg lg:text-xs">$415,000</span>
                                                 </div>
                                             </div>
-                                            {/* first house */}
+
                                             <div className="max-w-sm  lg:w-full shadow-3xl pb-5 embla__slide lg:text-xs">
                                                 <div>                                        
                                                         <Image src="/img6.jpg" alt="picture" width={300} height={300} className="max-w-sm" />                                                    
@@ -248,7 +243,6 @@ export default function Property(){
                                                 </div>
                                             </div>
                                         </Slider>
-                                {/* </div> */}
                     </div>
         </div>
     </section>

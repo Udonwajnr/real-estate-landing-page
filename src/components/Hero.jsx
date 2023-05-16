@@ -69,7 +69,7 @@ return(
                   </div>
                  {/* hero image */}
             <div>
-                 <Image src={'/img14.jpg'} className="max-w-3xl h-auto" alt="picture" width={300} height={300}/>
+                 <Image src={'/img14.jpg'} className="max-w-3xl h-auto" alt="picture" width={900} height={800}/>
             </div>   
         </div>
     </div>

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Partner from '@/components/Partner'
@@ -12,8 +11,6 @@ import NewsLetter from '@/components/NewsLetter'
 import Footer from '@/components/Footer'
 import MobileMenu from '@/components/MobileMenu'
 import { useState } from 'react'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [active,setActive] = useState(false);

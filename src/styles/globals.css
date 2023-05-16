@@ -18,46 +18,13 @@
     --text-color:#414548;
   }
 }
+
 img {
 width:100%;
 height: auto;
 }
 
 
-body {
-
-}
-
-.embla {
-  overflow: hidden;
-    /* background-color: green; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.embla__container {
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap:5px; */
-  /* background-color: green; */
-}
-
-.embla__slide {
-  overflow: hidden;
-    /* flex: 0 0 100%;
-    min-width: 0; */
-    /* padding-left: ; */
-    position: relative;
- 
-}
-/* the slides */
 .slick-slider .slick-slide {
   padding: 0 15px;
 }
-
-/* the parent */
-/* .slick-list {
-  margin: 0 -27px;
-} */

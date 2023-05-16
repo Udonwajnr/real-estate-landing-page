@@ -9,13 +9,12 @@ export default function Blog(){
                 <h2 className="font-bold text-2xl">Latest News Feed</h2>
             </div>
             <div  className=" flex justify-between gap-y-4 mt-5 flex-wrap">
-            {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
                             <Image src="/img13.jpg" alt="picture" width={300} height={300}  />
                     </div>
                     <div className="px-8 md:p-3 py-3">
-                        <span className="text-lg text-[#c7c7c7]">12 Feb,2023</span>
+                        <span className="text-lg">12 Feb,2023</span>
                         <h2 className="text-xl font-bold">What do you do a year before getting an apartment</h2>
                         <Link href={'/'} className="flex items-center gap-x-1 text-lg font-bold text-button-color mt-4">
                             Read More
@@ -25,7 +24,6 @@ export default function Blog(){
                 </div>
 
                 
-             {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
                         <picture>
@@ -33,7 +31,7 @@ export default function Blog(){
                         </picture>
                     </div>
                     <div className="px-8 md:p-3 py-3">
-                        <span className="text-lg text-[#c7c7c7]">14 Feb,2023</span>
+                        <span className="text-lg ">14 Feb,2023</span>
                         <h2 className="text-xl font-bold">Would the regulation of real estate Stand a better chance?</h2>
                         <Link href={'/'} className="flex items-center gap-x-1 text-lg font-bold text-button-color mt-4">
                             Read More
@@ -42,13 +40,12 @@ export default function Blog(){
                     </div>
                 </div>
 
-            {/* blog card */}
                 <div className="max-w-md shadow-4xl">
                     <div>
                             <Image src="/img15.jpg" alt="picture" width={300} height={300} />
                     </div>
                     <div className="px-8 md:p-3 py-3">
-                        <span className="text-lg text-[#c7c7c7]">12 Feb,2023</span>
+                        <span className="text-lg">12 Feb,2023</span>
                         <h2 className="text-xl font-bold">What do you do a year before getting an apartment</h2>
                         <Link href={'/'} className="flex items-center gap-x-1 text-lg font-bold text-button-color mt-4">
                             Read More
